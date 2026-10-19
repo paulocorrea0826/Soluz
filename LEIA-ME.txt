@@ -1,0 +1,19 @@
+ORÁCULO DOS ARCANJOS — PROJETO PARA GERAR APK
+
+Compatibilidade configurada: Android 5.0 ou superior (minSdk 21).
+O aplicativo abre o site do Oráculo em uma janela WebView e precisa de internet.
+
+O que vem no pacote:
+- android-app/: projeto Android WebView.
+- .github/workflows/build-apk.yml: automação que compila o APK no GitHub Actions.
+
+Como gerar o APK no repositório Soluz:
+1. Extraia este ZIP no computador.
+2. Envie as pastas android-app e .github para a raiz do repositório Soluz, mantendo os nomes e a estrutura.
+3. Confirme o envio com Commit changes.
+4. No GitHub, abra a aba Actions e aguarde a execução "Build Oraculo APK".
+5. Quando terminar com sucesso, abra a execução e baixe o artefato "oraculo-dos-arcanjos-apk".
+6. Extraia o artefato para obter app-debug.apk e transfira-o para o Android.
+7. Autorize a instalação de aplicativos dessa origem nas configurações do Android, se for solicitado.
+
+O APK gerado é para instalação direta/testes (debug), não é um pacote publicado na Play Store.
